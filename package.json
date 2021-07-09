@@ -1,0 +1,14 @@
+{
+  "name": "p10_extraer_data_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Daza <samueldazadaza@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-wifi": "^2.0.14"
+  }
+}
