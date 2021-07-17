@@ -15,9 +15,9 @@ function convertirajson () {
 };
 
 function resultado () {
-  var res1 = texto1 
   //texto1.wifi[1].mac
-  console.log(res1)
+  console.log(texto1)
+  var res1 = texto1 
 
 }
 
