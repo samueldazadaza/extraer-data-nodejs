@@ -7,4 +7,4 @@ function datos_wifi_json () {
   console.log(json_wifi)
 };
 datos_wifi_json(); //correr funcion ver wifis
-setInterval(datos_wifi_json, 1000); // actualizar informacion cada 1 seg
+setInterval(datos_wifi_json, 2000); // actualizar informacion cada 2 seg
