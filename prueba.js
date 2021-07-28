@@ -3,8 +3,10 @@ const array = {"wifi":[{"address":"fe80::d907:6a96:87a6:9e10","netmask":"ffff:ff
 function datos_wifi_json () {
   const os = require('os'); //llamar paquete OS system operative
   const data_wifi = os.networkInterfaces() //ver wifis en formato objeto
+  var buscar = data_wifi.find(data_wifi => data_wifi.model === "2023");
+
   var json_wifi = (JSON.stringify(data_wifi)); //lista wifis en formato json
-  console.log(json_wifi)
+  console.log(data_wifi)
 };
 datos_wifi_json(); //correr funcion ver wifis
 setInterval(datos_wifi_json, 2000); // actualizar informacion cada 2 seg
